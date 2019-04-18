@@ -1,0 +1,35 @@
+{
+  "private": false,
+  "name": "vue-nice-button",
+  "version": "1.0.1",
+  "description": "This is a simple vue component for nice buttons",
+  "main": "./dist/index.cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vue serve NiceButton.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuachinemezu/vue-nice-button.git"
+  },
+  "keywords": [
+    "buttons",
+    "vue",
+    "vue-button"
+  ],
+  "author": "Joshua Chinemezu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuachinemezu/vue-nice-button/issues"
+  },
+  "homepage": "https://github.com/joshuachinemezu/vue-nice-button#readme",
+  "devDependencies": {
+    "bili": "^4.7.3",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
